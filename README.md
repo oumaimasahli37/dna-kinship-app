@@ -4,18 +4,18 @@ Application web interactive développée avec **Streamlit** pour analyser des do
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-- 🔬 **Analyse de vecteurs SNP** — traitement de séquences de 1000 positions génétiques (bases A, T, C, G)
-- 🌍 **Prédiction des origines ethniques** — classification parmi 6 populations :
+-  **Analyse de vecteurs SNP** — traitement de séquences de 1000 positions génétiques (bases A, T, C, G)
+- **Prédiction des origines ethniques** — classification parmi 6 populations :
   - Européen · Africain · Est-Asiatique · Sud-Asiatique · Moyen-Oriental · Américain mixte
-- 👨‍👩‍👧 **Détection de liens de parenté** — identification des relations familiales entre individus
-- 🗺️ **Carte mondiale interactive** — visualisation géographique des origines avec clustering
-- 📊 **Tableau de bord analytique** — métriques et graphiques de synthèse
+- **Détection de liens de parenté** — identification des relations familiales entre individus
+-  **Carte mondiale interactive** — visualisation géographique des origines avec clustering
+- **Tableau de bord analytique** — métriques et graphiques de synthèse
 
 ---
 
-## 🚀 Lancer l'application
+##  Lancer l'application
 
 ### 1. Cloner le dépôt
 ```bash
@@ -35,7 +35,7 @@ streamlit run app.py
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 
 ```
 dna-kinship/
@@ -52,7 +52,7 @@ dna-kinship/
 
 ---
 
-## 📋 Format de données requis
+##  Format de données requis
 
 Le fichier CSV d'entrée doit contenir exactement **deux colonnes** :
 
@@ -72,7 +72,7 @@ PERSON_002,GCTAGCTA...  (1000 caractères)
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 | Outil | Usage |
 |-------|-------|
